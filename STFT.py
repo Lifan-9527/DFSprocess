@@ -6,6 +6,11 @@ Created on Mon Feb 25 10:37:44 2019
 @author: fan
 
  STFT method
+ 
+ The original stft method inside numpy
+ seems too complex to use for the DFS
+ signal process target. So here is a 
+ recomposition of STFT method.
 """
 import math
 import numpy as np
